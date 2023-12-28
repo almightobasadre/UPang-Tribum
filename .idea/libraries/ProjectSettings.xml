@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ProjectSettings">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Assets/UFE/Engine/ProjectSettings/ProjectSettings.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

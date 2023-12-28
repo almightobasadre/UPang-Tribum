@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/UPang Tribum.iml" filepath="$PROJECT_DIR$/.idea/UPang Tribum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/build.iml" filepath="$PROJECT_DIR$/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/com.unity.adaptiveperformance.samsung.android@5.0.0.iml" filepath="$PROJECT_DIR$/Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/com.unity.adaptiveperformance.samsung.android@5.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.notifications@2.0.0/com.unity.mobile.notifications@2.0.0.iml" filepath="$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.notifications@2.0.0/com.unity.mobile.notifications@2.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/launcher.iml" filepath="$PROJECT_DIR$/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/unityLibrary.iml" filepath="$PROJECT_DIR$/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/unityLibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -2123,9 +2123,9 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
     synchronizationAction: 0
-  music: 0
-  musicVolume: 0.29708967
-  soundfx: 0
+  music: 1
+  musicVolume: 1
+  soundfx: 1
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}

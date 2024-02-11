@@ -399,7 +399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 144754cddb2927e43bfdd34aa26b7bec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eda7a6ce23427d149a6c731aca6d4615, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -425,7 +425,7 @@ MonoBehaviour:
   sourceControl: {fileID: 11423552}
   spriteNeutral:
     enabled: 1
-    sprite: {fileID: 21300000, guid: 144754cddb2927e43bfdd34aa26b7bec, type: 3}
+    sprite: {fileID: 21300000, guid: eda7a6ce23427d149a6c731aca6d4615, type: 3}
     color: {r: 0.7411765, g: 0.7411765, b: 0.7411765, a: 0.39215687}
     scale: 1
     rotation: 0
@@ -442,7 +442,7 @@ MonoBehaviour:
   spritePressed:
     enabled: 1
     sprite: {fileID: 0}
-    color: {r: 1, g: 1, b: 1, a: 1}
+    color: {r: 0.15294118, g: 0.69803923, b: 0.3019608, a: 1}
     scale: 1.25
     rotation: 0
     offset: {x: 0, y: 0}
@@ -621,7 +621,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ef3edde2c0a524546ad0ff2bd0b16e21, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d84e1dcc13a1714ebacd7f0556c9269, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -647,7 +647,7 @@ MonoBehaviour:
   sourceControl: {fileID: 11427346}
   spriteNeutral:
     enabled: 1
-    sprite: {fileID: 21300000, guid: ef3edde2c0a524546ad0ff2bd0b16e21, type: 3}
+    sprite: {fileID: 21300000, guid: 1d84e1dcc13a1714ebacd7f0556c9269, type: 3}
     color: {r: 0.7411765, g: 0.7411765, b: 0.7411765, a: 0.39215687}
     scale: 1
     rotation: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
   spritePressed:
     enabled: 1
     sprite: {fileID: 0}
-    color: {r: 1, g: 1, b: 1, a: 1}
+    color: {r: 0.08235294, g: 0.52156866, b: 0.5764706, a: 1}
     scale: 1.25
     rotation: 0
     offset: {x: 0, y: 0}
@@ -842,7 +842,7 @@ RectTransform:
   m_GameObject: {fileID: 129480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 22431822}
@@ -1132,14 +1132,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.347}
+  m_Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0.347}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b175b2dd6ff384946af5d9c48cbd021e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c9b4a946cb151042b0114b2eed082d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1165,8 +1165,8 @@ MonoBehaviour:
   sourceControl: {fileID: 11420796}
   spriteNeutral:
     enabled: 1
-    sprite: {fileID: 21300000, guid: b175b2dd6ff384946af5d9c48cbd021e, type: 3}
-    color: {r: 1, g: 1, b: 1, a: 0.347}
+    sprite: {fileID: 21300000, guid: 6c9b4a946cb151042b0114b2eed082d1, type: 3}
+    color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0.347}
     scale: 1
     rotation: 0
     offset: {x: 0, y: 0}
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   spriteNeutralPressed:
     enabled: 1
     sprite: {fileID: 0}
-    color: {r: 1, g: 0.8726415, b: 0.8726415, a: 1}
+    color: {r: 0.21960786, g: 0.74509805, b: 0.20000002, a: 1}
     scale: 1.2
     rotation: 0
     offset: {x: 0, y: 0}
@@ -1440,7 +1440,7 @@ MonoBehaviour:
   spritePressed:
     enabled: 1
     sprite: {fileID: 0}
-    color: {r: 1, g: 1, b: 1, a: 0.984}
+    color: {r: 0.64705884, g: 0.054901965, b: 0.14901961, a: 0.984}
     scale: 1.25
     rotation: 0
     offset: {x: 0, y: 0}
@@ -1497,7 +1497,7 @@ GameObject:
   - component: {fileID: 11416440}
   - component: {fileID: 11412156}
   m_Layer: 0
-  m_Name: CF2-UFE-3-Buttons-Rig
+  m_Name: CF2-UFE-3-Buttons-Rig 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4798,7 +4798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 95bdf3b7893ce4541bfce57cb5ea249e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a1fbb7d4c6cd84443b0036e1dd4b1705, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4824,7 +4824,7 @@ MonoBehaviour:
   sourceControl: {fileID: 11420796}
   spriteNeutral:
     enabled: 1
-    sprite: {fileID: 21300000, guid: 95bdf3b7893ce4541bfce57cb5ea249e, type: 3}
+    sprite: {fileID: 21300000, guid: a1fbb7d4c6cd84443b0036e1dd4b1705, type: 3}
     color: {r: 0.697, g: 0.697, b: 0.697, a: 0.34509805}
     scale: 1
     rotation: 0

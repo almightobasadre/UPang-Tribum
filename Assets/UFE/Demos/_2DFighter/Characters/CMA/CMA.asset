@@ -15,14 +15,14 @@ MonoBehaviour:
   gameplayType: 0
   profilePictureSmall: {fileID: 2800000, guid: feb7084c2b12ede4684f2152c950f375, type: 3}
   profilePictureBig: {fileID: 2800000, guid: e4940999e2875234ba96ef22036f09e0, type: 3}
-  characterName: 
+  characterName: Manager
   gender: 2
   characterDescription: 
   selectionAnimation: {fileID: 0}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
   height: 0
-  age: 0
+  age: 18
   bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 0

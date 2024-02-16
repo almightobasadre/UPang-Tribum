@@ -18,7 +18,7 @@ MonoBehaviour:
   preview: {fileID: 2498653181301941711, guid: 16e02540f7f96364c97c1aa17cdcdc1f, type: 3}
   totalFrames: 55
   customHitBoxes:
-  - name: KA Hurtbox
+  - name: Kick Hurtbox
     activeFrames:
     - active: 0
       position:

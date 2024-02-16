@@ -49,9 +49,9 @@ MonoBehaviour:
       _serializedValue: 0
   physics:
     _moveForwardSpeed:
-      _serializedValue: 17179869184
+      _serializedValue: 34359738368
     _moveBackSpeed:
-      _serializedValue: 15032385536
+      _serializedValue: 30064771072
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
@@ -63,18 +63,18 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 171798691840
+      _serializedValue: 214748364800
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
     _jumpDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 42949672960
     _jumpBackDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 42949672960
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 751619276800
+      _serializedValue: 1632087572480
     jumpDelay: 8
     landingDelay: 7
     _groundCollisionMass:
@@ -120,11 +120,12 @@ MonoBehaviour:
         animMap:
         - animationMaps: []
           clip: {fileID: 7400000, guid: 8ab38bfbe3c81ad4d80957eaeb5b6252, type: 2}
-          customHitBoxDefinition: {fileID: 0}
+          customHitBoxDefinition: {fileID: 11400000, guid: 787e327e774f45f49bc3cb4783888876,
+            type: 2}
           length:
             _serializedValue: 0
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -220,17 +221,18 @@ MonoBehaviour:
           hitBoxDefinitionIndex: 0
         reference: 0
         name: 
-        editorToggle: 1
+        editorToggle: 0
         soundEffectsToggle: 0
       moveForward:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 255eb1d9b53972e4380ff54ed5eff6e2, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 6a168d0e319062040905b46dd3c2653c,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 2863311360
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -289,10 +291,10 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 2
         moveInfo: {fileID: 0}
         useMoveFile: 0
-        autoSpeed: 1
+        autoSpeed: 0
         _restingClipInterval:
           _serializedValue: 25769803776
         overrideBlendingIn: 0
@@ -331,12 +333,13 @@ MonoBehaviour:
       moveBack:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 2503c73ecb821354582368688eee0bbd, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 342acb0b56dcdba418b099abeb6187c8,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 2147483648
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -395,10 +398,10 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 2
         moveInfo: {fileID: 0}
         useMoveFile: 0
-        autoSpeed: 1
+        autoSpeed: 0
         _restingClipInterval:
           _serializedValue: 25769803776
         overrideBlendingIn: 0
@@ -755,7 +758,7 @@ MonoBehaviour:
       jumpStraight:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 44492f41069f51a4cb4abfc83e030e8b, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -819,7 +822,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -925,7 +928,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1073,7 +1076,7 @@ MonoBehaviour:
       fallStraight:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 406610d173dad5b488dd68c2da18c1f2, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -1137,7 +1140,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1243,7 +1246,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1349,7 +1352,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1391,7 +1394,7 @@ MonoBehaviour:
       landing:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 9efc592f215987541ab2cd775df4ec62, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -1455,7 +1458,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1709,12 +1712,13 @@ MonoBehaviour:
       blockingHighPose:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 1bfefb7be7e51064285a8a75d6c02667,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 1288490240
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -1773,10 +1777,10 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
-        autoSpeed: 1
+        autoSpeed: 0
         _restingClipInterval:
           _serializedValue: 25769803776
         overrideBlendingIn: 0
@@ -1815,21 +1819,21 @@ MonoBehaviour:
       blockingHighHit:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -1879,7 +1883,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -1921,21 +1925,21 @@ MonoBehaviour:
       blockingLowHit:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5821b27b0ce39fe4893ba227c4ba51c6, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -1985,7 +1989,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -2727,7 +2731,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -3299,7 +3303,7 @@ MonoBehaviour:
       fallDown:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 971c8b00b3731b94bb928ce18f2a7c4f, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -3363,7 +3367,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -3617,21 +3621,21 @@ MonoBehaviour:
       getHitHigh:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 276b71bbb3923104a9e3058b58bb2d74, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 276b71bbb3923104a9e3058b58bb2d74, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
           bakeSpeed: 0
           hitBoxDefinitionType: 0
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 276b71bbb3923104a9e3058b58bb2d74, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -3681,7 +3685,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -3787,7 +3791,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -4041,7 +4045,7 @@ MonoBehaviour:
       getHitAir:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 6bf158877b0ca184b9974ff918b54508, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4105,7 +4109,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -4147,7 +4151,7 @@ MonoBehaviour:
       getHitCrumple:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 276b71bbb3923104a9e3058b58bb2d74, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4211,7 +4215,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -4359,7 +4363,7 @@ MonoBehaviour:
       getHitSweep:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 6bf158877b0ca184b9974ff918b54508, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4423,10 +4427,10 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
-        autoSpeed: 1
+        autoSpeed: 0
         _restingClipInterval:
           _serializedValue: 25769803776
         overrideBlendingIn: 0
@@ -4465,7 +4469,7 @@ MonoBehaviour:
       standUp:
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 578ef18384ebe5b48a0b18a97f531c48, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4529,7 +4533,7 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 8
         moveInfo: {fileID: 0}
         useMoveFile: 0
         autoSpeed: 1
@@ -5522,13 +5526,23 @@ MonoBehaviour:
         name: 
         editorToggle: 0
         soundEffectsToggle: 0
-      moveEnabled: 0
-      jumpEnabled: 0
+      moveEnabled: 1
+      jumpEnabled: 1
       crouchEnabled: 0
-      blockEnabled: 0
+      blockEnabled: 1
       parryEnabled: 0
-    attackMoves: []
-    enabledBasicMovesToggle: 1
-    basicMovesToggle: 1
-    attackMovesToggle: 0
-  aiInstructionsSet: []
+    attackMoves:
+    - {fileID: 11400000, guid: 09c6bf776cf8ef144951a38a9addea04, type: 2}
+    - {fileID: 11400000, guid: 5e267afc5cf634646b149bbcd0a5747a, type: 2}
+    - {fileID: 11400000, guid: d622fadfa722f3c4689fcc68dd7700ec, type: 2}
+    - {fileID: 11400000, guid: b40e1eafa6801034196eaed27d41f3ba, type: 2}
+    enabledBasicMovesToggle: 0
+    basicMovesToggle: 0
+    attackMovesToggle: 1
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 194d8c5ad8534c040aa61e79540c24de, type: 2}
+    behavior: 4
+  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
+    behavior: 3
+  - aiInfo: {fileID: 11400000, guid: 68a028838c8be5947880fd975acc4ca7, type: 2}
+    behavior: 2

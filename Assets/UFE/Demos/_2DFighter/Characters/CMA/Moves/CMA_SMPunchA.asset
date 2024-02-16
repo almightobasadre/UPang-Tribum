@@ -261,9 +261,9 @@ MonoBehaviour:
     hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 193273528320
     _hitStunOnBlock:
-      _serializedValue: 64424509440
+      _serializedValue: 85899345920
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 0

@@ -171,11 +171,15 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 010000000000000002000000
-    selectableCharactersInVersusMode: 000000000100000002000000
+    selectableCharactersInStoryMode: 01000000000000000200000003000000
+    selectableCharactersInVersusMode: 00000000010000000200000003000000
     characterStories:
-      _keys: 000000000100000002000000
+      _keys: 00000000010000000200000003000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -835,7 +839,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -851,7 +855,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1198,6 +1202,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 98759f9fbb9bedb499a6ead30dca5725, type: 2}
   - {fileID: 11400000, guid: 650150540f4c3d84faecdc46e522a2e5, type: 2}
   - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
+  - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
